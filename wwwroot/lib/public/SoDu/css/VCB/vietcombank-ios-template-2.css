@@ -1,0 +1,206 @@
+#vietcombank-ios {
+    margin-top: 40px;
+}
+#beneficiary-person-view{
+    text-transform: uppercase;
+}
+#hide-img {
+
+    width: 20px !important;
+    height: auto !important;
+    position: absolute;
+    top: 0;
+    right: -27px;
+}
+#copy-img {
+    width: 19px !important;
+    height: auto !important;
+    position: absolute;
+    top: 0;
+    right: -26px;
+}
+
+
+#view-container {
+    width: 591px;
+    height: 1280px;
+    position: relative;
+    float: right;
+    margin-right: 40px;
+}
+
+    #view-container img {
+        width: 591px;
+        height: 1280px;
+    }
+
+    #view-container #time-view {
+        position: absolute;
+        left: 42px;
+        top: 26px;
+    }
+
+        #view-container #time-view #time-view-content {
+            color: #f3fcff;
+            font-weight: bold;
+            font-size: 17pt;
+            font-family: Roboto;
+        }
+
+    #view-container #money-view {
+        position: absolute;
+        left: 37%;
+        bottom: 505px;
+    }
+
+        #view-container #money-view #money-view-content {
+            color: #85bc3d;
+            font-size: 12pt;
+            font-weight: bold;
+            letter-spacing: -0.65px;
+            font-family: "Semibold", sans-serif;
+            white-space:nowrap;
+        }
+
+    #view-container #banking-time-view {
+        position: absolute;
+        left: 50%;transform: translateX(-50%);
+        top: 407px;
+    }
+
+        #view-container #banking-time-view #banking-time-view-content {
+            color: #99a6af;
+            font-family: "Semibold", sans-serif;
+            font-weight: bold;
+            font-size: 15pt;
+            letter-spacing: -0.45px;
+            max-width: 290px;
+        }
+
+    #view-container #beneficiary-person-view {
+        position: absolute;
+        left: 120px;
+        top: 620px;
+    }
+
+        #view-container #beneficiary-person-view #beneficiary-person-view-content {
+            color: #f3fcff;
+            font-family: "Semibold", sans-serif;
+            font-weight: bold;
+            font-size: 12pt;
+            max-width: 290px;
+            text-align: right;
+            max-width: 290px;
+        }
+
+    #view-container #beneficiary-account-view {
+        position: absolute;
+        right: 23px;
+        top: 616px;
+    }
+
+        #view-container #beneficiary-account-view #beneficiary-account-view-content {
+            color: #f3fcff;
+            font-family: "Semibold", sans-serif;
+            font-weight: bold;
+            font-size: 19pt;
+            text-align: right;
+            max-width: 290px;
+        }
+
+    #view-container #transaction-code-view {
+        position: absolute;
+        left: 168px;
+        top: 706px;
+        opacity: 0.8;
+    }
+
+        #view-container #transaction-code-view #transaction-code-view-content {
+            color: #f3fcff;
+            font-family: "Semibold", sans-serif;
+            font-weight: bold;
+            font-size: 12pt;
+            text-align: right;
+            max-width: 290px;
+        }
+
+    #view-container #transaction-content-view {
+        position: absolute;
+        top: 776px;
+        right: 23px;
+    }
+
+        #view-container #transaction-content-view #transaction-content-view-content {
+            color: #f3fcff;
+            font-family: "Semibold", sans-serif;
+            font-weight: bold;
+            font-size: 19pt;
+            max-width: 290px;
+            text-align: right;
+        }
+
+    #view-container #pin {
+        position: absolute;
+        top: 25px;
+        right: 29px;
+    }
+
+        #view-container #pin img {
+            width: 39px;
+            height: 17px;
+        }
+
+    #view-container #signal {
+        position: absolute;
+        left: 455px;
+        top: 25px;
+    }
+
+        #view-container #signal img {
+            width: 27px;
+            height: 18px;
+        }
+
+    #view-container #wifi {
+        position: absolute;
+        right: 76px;
+        top: 25px;
+    }
+
+        #view-container #wifi img {
+            width: 25px;
+            height: 19px;
+        }
+
+.signal {
+    float: left;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+    .signal img {
+        width: 30px;
+    }
+
+.pin {
+    float: left;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+    .pin img {
+        width: 30px;
+    }
+
+.wifi {
+    float: left;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+    .wifi img {
+        width: 30px;
+    }
+#banking-time-view-content{
+    text-transform:capitalize;
+}

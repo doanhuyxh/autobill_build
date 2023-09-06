@@ -1,0 +1,201 @@
+#vietcombank-ios {
+    margin-top: 40px;
+}
+
+#view-container {
+    width: 591px;
+    height: 1265px;
+    position: relative;
+    float: right;
+    margin-right: 40px;
+}
+
+    #view-container img {
+        width: 591px;
+        height: 1265px;
+    }
+
+    #view-container #time-view {
+        position: absolute;
+        left: 50px;
+        top: 16px;
+    }
+
+        #view-container #time-view #time-view-content {
+            color: black;
+            font-weight: bold;
+            font-size: 17pt;
+            font-family: Arial;
+            letter-spacing: 0.7px;
+        }
+
+    #view-container #money-view {
+        position: absolute;
+        left: 49.9896px;
+        top: 407.99px;
+    }
+
+        #view-container #money-view #money-view-content {
+            color: #fffcdf;
+            font-size: 32px;
+            font-family: Roboto;
+            font-weight: bold;
+            letter-spacing: 0.9px;
+            opacity: 0.9;
+        }
+
+    #view-container #card-number-view {
+        position: absolute;
+        left: 41.9688px;
+        top: 519.984px;
+    }
+
+        #view-container #card-number-view #card-number-view-content {
+            color: #545454;
+            font-size: 18pt;
+            font-family: Roboto;
+            letter-spacing: 0.5px;
+            opacity: 0.9;
+        }
+
+    #view-container #beneficiary-name-view {
+        position: absolute;
+        left: 43.9792px;
+        top: 620.979px;
+    }
+
+        #view-container #beneficiary-name-view #beneficiary-name-view-content {
+            color: #a16930;
+            font-size: 17pt;
+            font-family: Arial;
+            opacity: 0.8;
+            letter-spacing: -0.2px;
+        }
+
+    #view-container #transaction-code-view {
+        position: absolute;
+        left: 44.9688px;
+        top: 717.969px;
+    }
+
+        #view-container #transaction-code-view #transaction-code-view-content {
+            color: #545454;
+            font-size: 18pt;
+            font-family: Arial;
+            opacity: 0.9;
+        }
+
+    #view-container #beneficiary-bank-view {
+        position: absolute;
+        left: 43.9688px;
+        top: 817.969px;
+    }
+
+        #view-container #beneficiary-bank-view #beneficiary-bank-view-content {
+            color: #515151;
+            font-size: 17pt;
+            font-family: Arial;
+            opacity: 0.9;
+        }
+
+    #view-container #fee-view {
+        position: absolute;
+        left: 44.9583px;
+        top: 916.958px;
+    }
+
+        #view-container #fee-view #fee-view-content {
+            color: #515151;
+            font-size: 17pt;
+            font-family: Arial;
+            opacity: 0.9;
+        }
+
+    #view-container #transaction-time-view {
+        position: absolute;
+        left: 41.9375px;
+        top: 1014.95px;
+    }
+
+        #view-container #transaction-time-view #transaction-time-view-content {
+            color: #515151;
+            font-size: 18pt;
+            font-family: Arial;
+            opacity: 0.9;
+        }
+
+    #view-container #transaction-content-view {
+        position: absolute;
+        left: 43.9583px;
+        top: 1114.95px;
+    }
+
+        #view-container #transaction-content-view #transaction-content-view-content {
+            color: #515151;
+            font-size: 17pt;
+            font-family: Arial;
+            opacity: 0.8;
+        }
+
+    #view-container #pin {
+        position: absolute;
+        top: 18px;
+        right: 34px;
+    }
+
+        #view-container #pin img {
+            width: 38px;
+            height: 17px;
+        }
+
+    #view-container #signal {
+        position: absolute;
+        right: 113px;
+        top: 18px;
+    }
+
+        #view-container #signal img {
+            width: 25px;
+            height: 16px;
+        }
+
+    #view-container #wifi {
+        position: absolute;
+        right: 82px;
+        top: 18px;
+    }
+
+        #view-container #wifi img {
+            width: 22px;
+            height: 19px;
+        }
+
+.signal {
+    float: left;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+    .signal img {
+        width: 30px;
+    }
+
+.pin {
+    float: left;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+    .pin img {
+        width: 30px;
+    }
+
+.wifi {
+    float: left;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+    .wifi img {
+        width: 30px;
+    }

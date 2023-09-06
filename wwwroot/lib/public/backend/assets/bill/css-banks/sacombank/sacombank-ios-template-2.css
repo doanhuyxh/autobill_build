@@ -1,0 +1,163 @@
+
+#sacombank-android {
+    margin-top: 40px;
+}
+
+#view-container {
+    width: 591px;
+    height: 1280px;
+    position: relative;
+    float: right;
+    margin-right: 40px;
+    font-family: SourceSansPro;
+}
+
+#view-container p{
+    margin: 0px;
+}
+
+    #view-container img {
+        width: 591px;
+        height: 1280px;
+    }
+
+    #view-container #money-view {
+        position: absolute;
+        left: 227px;
+        top: 476px;
+    }
+
+        #view-container #money-view #money-view-text {
+            font-size: 27px;
+            color: #003a7d;
+            font-weight: 500;
+        }
+
+    #view-container #time-view {
+        position: absolute;
+        left: 191px;
+        top: 527px;
+    }
+
+        #view-container #time-view #time-view-text {
+            font-size: 25px;
+            color: black;
+            font-weight: 400;
+        }
+
+    #view-container #transaction-code-view {
+        position: absolute;
+        right: 16px;
+        top: 616px;
+    }
+
+        #view-container #transaction-code-view #transaction-code-view-text {
+            font-size: 26px;
+            color: black;
+            font-weight: 400;
+        }
+
+    #view-container #transaction-type-view {
+        position: absolute;
+        right: 15px;
+        top: 673px;
+    }
+
+        #view-container #transaction-type-view #transaction-type-view-text {
+            font-size: 24.7px;
+            color: black;
+            font-weight: 400;
+            text-align: right;
+            line-height: 26px;
+            max-width: 280px;
+        }
+
+    #view-container #card-number-view {
+        position: absolute;
+        right: 15px;
+        top: 770px;
+    }
+
+        #view-container #card-number-view #card-number-view-text {
+            font-size: 24.7px;
+            color: black;
+            font-weight: 400;
+            text-align: right;
+            letter-spacing: 0.5px;
+        }
+
+    #view-container #account-number-view {
+        position: absolute;
+        right: 18px;
+        top: 817px;
+    }
+
+        #view-container #account-number-view #account-number-view-text {
+            font-size: 25.5px;
+            color: black;
+            font-weight: 400;
+        }
+
+    #view-container #bank-name-view {
+        position: absolute;
+        right: 16px;
+        top: 865.5px;
+    }
+
+        #view-container #bank-name-view #bank-name-view-text {
+            font-size: 25.5px;
+            color: black;
+            font-weight: 400;
+        }
+
+    #view-container #transaction-content-view {
+        position: absolute;
+        right: 15.5px;
+        top: 913.5px;
+    }
+
+        #view-container #transaction-content-view #transaction-content-view-text {
+            font-size: 25.5px;
+            color: black;
+            font-weight: 400;
+            letter-spacing: 0.2px;
+        }
+
+    #view-container #sub-money-view {
+        position: absolute;
+        right: 15.5px;
+        top: 960.5px;
+    }
+
+        #view-container #sub-money-view #sub-money-view-text {
+            font-size: 25.5px;
+            color: black;
+            font-weight: 400;
+            letter-spacing: 0.2px;
+        }
+
+    #view-container #transaction-fee-view {
+        position: absolute;
+        right: 15.5px;
+        top: 1011.5px;
+    }
+
+        #view-container #transaction-fee-view #transaction-fee-view-text {
+            font-size: 25.5px;
+            color: black;
+            font-weight: 400;
+            letter-spacing: 0.2px;
+        }
+
+    #view-container #total-money-view {
+        position: absolute;
+        right: 15.5px;
+        top: 1058.5px;
+    }
+
+        #view-container #total-money-view #total-money-view-text {
+            font-size: 25.5px;
+            color: black;
+            font-weight: 500;
+            letter-spacing: 0.2px;
+        }

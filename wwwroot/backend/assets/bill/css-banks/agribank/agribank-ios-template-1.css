@@ -1,0 +1,191 @@
+#vietcombank-ios {
+    margin-top: 40px;
+}
+
+#view-container {
+    width: 591px;
+    height: 1280px;
+    position: relative;
+    float: right;
+    margin-right: 40px;
+}
+
+    #view-container img {
+        width: 591px;
+        height: 1280px;
+    }
+
+    #view-container #time-view {
+        position: absolute;
+        left: 45px;
+        top: 18px;
+    }
+
+        #view-container #time-view #time-view-content {
+            color: #fde7d2;
+            font-weight: bold;
+            font-size: 18pt;
+            font-family: Arial;
+        }
+
+    #view-container #money-view {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 320.994px;
+    }
+
+        #view-container #money-view #money-view-content {
+            color: #982b48;
+            font-size: 26pt;
+            font-family: Arial;
+            font-weight: bold;
+        }
+
+    #view-container #card-number-view {
+        position: absolute;
+        left: 45.9822px;
+        top: 462.991px;
+    }
+
+        #view-container #card-number-view #card-number-view-content {
+            color: #454243;
+            font-size: 20pt;
+            font-family: Arial;
+            font-weight: bold;
+        }
+
+    #view-container #beneficiary-name-view {
+        position: absolute;
+        left: 45.9821px;
+        top: 575.982px;
+    }
+
+        #view-container #beneficiary-name-view #beneficiary-name-view-content {
+            color: #8e3754;
+            font-size: 20pt;
+            font-family: Arial;
+        }
+
+    #view-container #beneficiary-bank-view {
+        position: absolute;
+        left: 48.9732px;
+        top: 683.973px;
+    }
+
+        #view-container #beneficiary-bank-view #beneficiary-bank-view-content {
+            color: #515151;
+            font-size: 20pt;
+            font-family: Arial;
+        }
+
+    #view-container #fee-view {
+        position: absolute;
+        left: 47.9643px;
+        top: 794.964px;
+    }
+
+        #view-container #fee-view #fee-view-content {
+            color: #515151;
+            font-size: 20pt;
+            font-family: Arial;
+        }
+
+    #view-container #transaction-time-view {
+        position: absolute;
+        left: 43.9643px;
+        top: 905.955px;
+    }
+
+        #view-container #transaction-time-view #transaction-time-view-content {
+            color: #515151;
+            font-size: 20pt;
+            font-family: Arial;
+        }
+
+    #view-container #transaction-time-view {
+        position: absolute;
+        left: 43.9643px;
+        top: 905.955px;
+    }
+
+        #view-container #transaction-time-view #transaction-time-view-content {
+            color: #454243;
+            font-size: 20pt;
+            font-family: Arial;
+        }
+
+    #view-container #transaction-content-view {
+        position: absolute;
+        left: 47.9643px;
+        top: 1015.95px;
+    }
+
+        #view-container #transaction-content-view #transaction-content-view-content {
+            color: #515151;
+            font-size: 20pt;
+            font-family: Arial;
+        }
+
+    #view-container #pin {
+        position: absolute;
+        top: 23px;
+        right: 22px;
+    }
+
+        #view-container #pin img {
+            width: 40px;
+            height: 18px;
+        }
+
+    #view-container #signal {
+        position: absolute;
+        right: 101px;
+        top: 23px;
+    }
+
+        #view-container #signal img {
+            width: 27px;
+            height: 18px;
+        }
+
+    #view-container #wifi {
+        position: absolute;
+        right: 68px;
+        top: 23px;
+    }
+
+        #view-container #wifi img {
+            width: 25px;
+            height: 19px;
+        }
+
+.signal {
+    float: left;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+    .signal img {
+        width: 30px;
+    }
+
+.pin {
+    float: left;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+    .pin img {
+        width: 30px;
+    }
+
+.wifi {
+    float: left;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+    .wifi img {
+        width: 30px;
+    }

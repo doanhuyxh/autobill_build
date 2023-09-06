@@ -1,0 +1,210 @@
+#techcombank-android {
+    margin-top: 40px;
+}
+
+#view-container {
+    width: 591px;
+    height: 1051px;
+    position: relative;
+    float: right;
+    margin-right: 40px;
+}
+
+    #view-container img {
+        width: 591px;
+        height: 1051px;
+    }
+
+    #view-container #pin {
+        position: absolute;
+        top: 4px;
+        left: 514px;
+    }
+
+        #view-container #pin img {
+            width: 11px;
+            height: 16.5px;
+        }
+
+    #view-container #signal {
+        position: absolute;
+        top: 4px;
+        left: 450px;
+    }
+
+        #view-container #signal img {
+            width: 16px;
+            height: 16px;
+        }
+
+    #view-container #h-plus {
+        position: absolute;
+        top: 4px;
+        left: 430px;
+    }
+
+        #view-container #h-plus img {
+            width: 12px;
+            height: 16px;
+        }
+
+    #view-container #alarm {
+        position: absolute;
+        left: 401px;
+        top: 4px;
+    }
+
+        #view-container #alarm img {
+            width: 16px;
+            height: 16px;
+        }
+
+    #view-container #time-view {
+        position: absolute;
+        left: 530px;
+        top: 4px;
+    }
+
+        #view-container #time-view #time-view-content {
+            color: #686868;
+            font-size: 14pt;
+            font-family: Roboto;
+        }
+
+    #view-container #pin-percent-view {
+        position: absolute;
+        left: 473.214px;
+        top: 4px;
+    }
+
+        #view-container #pin-percent-view #pin-percent-view-content {
+            color: #686868;
+            font-size: 14pt;
+            font-family: Roboto;
+        }
+
+    #view-container #money-view {
+        position: absolute;
+        left: 174px;
+        top: 183px;
+    }
+
+        #view-container #money-view #money-view-content {
+            color: white;
+            font-size: 42pt;
+            font-family: Roboto;
+            font-weight: normal;
+        }
+
+    #view-container #banking-time-view {
+        position: absolute;
+        left: 23px;
+        top: 336px;
+    }
+
+        #view-container #banking-time-view #banking-time-view-content {
+            color: black;
+            font-family: Roboto;
+            font-weight: bold;
+            font-size: 17pt;
+        }
+
+    #view-container #sender-name-view {
+        position: absolute;
+        top: 423px;
+        left: 23px;
+    }
+
+        #view-container #sender-name-view #sender-name-view-content {
+            color: black;
+            font-family: Roboto;
+            font-weight: bold;
+            font-size: 17pt;
+        }
+
+    #view-container #sender-bank-view {
+        position: absolute;
+        top: 455px;
+        left: 23px;
+    }
+
+        #view-container #sender-bank-view #sender-bank-view-content {
+            color: black;
+            font-family: Roboto;
+            font-weight: bold;
+            font-size: 17pt;
+        }
+
+    #view-container #beneficiary-person-view {
+        position: absolute;
+        top: 542px;
+        left: 23px;
+    }
+
+        #view-container #beneficiary-person-view #beneficiary-person-view-content {
+            color: black;
+            font-family: Roboto;
+            font-weight: bold;
+            font-size: 17pt;
+        }
+
+    #view-container #beneficiary-bank-view {
+        position: absolute;
+        top: 573px;
+        left: 23px;
+    }
+
+        #view-container #beneficiary-bank-view #beneficiary-bank-view-content {
+            color: black;
+            font-family: Roboto;
+            font-weight: bold;
+            font-size: 17pt;
+        }
+
+    #view-container #beneficiary-bank-name-view {
+        position: absolute;
+        top: 605px;
+        left: 23px;
+    }
+
+        #view-container #beneficiary-bank-name-view #beneficiary-bank-name-view-content {
+            color: black;
+            font-family: Roboto;
+            font-weight: bold;
+            font-size: 17pt;
+        }
+
+    #view-container #transaction-content-view {
+        position: absolute;
+        top: 691px;
+        left: 23px;
+    }
+
+        #view-container #transaction-content-view #transaction-content-view-content {
+            color: black;
+            font-family: Roboto;
+            font-weight: bold;
+            font-size: 17pt;
+        }
+
+    #view-container #transaction-code-view {
+        position: absolute;
+        top: 777px;
+        left: 23px;
+    }
+
+        #view-container #transaction-code-view #transaction-code-view-content {
+            color: black;
+            font-family: Roboto;
+            font-weight: bold;
+            font-size: 17pt;
+        }
+
+.pin {
+    cursor: pointer;
+}
+
+.signal {
+    cursor: pointer;
+    width: 30px;
+}

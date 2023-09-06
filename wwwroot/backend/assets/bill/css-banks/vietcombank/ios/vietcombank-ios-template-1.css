@@ -1,0 +1,172 @@
+#vietcombank-ios {
+    margin-top: 40px;
+}
+
+#view-container {
+    width: 591px;
+    height: 1280px;
+    position: relative;
+    float: right;
+    margin-right: 40px;
+}
+
+    #view-container img {
+        width: 591px;
+        height: 1280px;
+    }
+
+    #view-container #time-view {
+        position: absolute;
+        left: 42px;
+        top: 17px;
+    }
+
+        #view-container #time-view #time-view-content {
+            color: #f3fcff;
+            font-weight: bold;
+            font-size: 17pt;
+            font-family: Roboto;
+        }
+
+    #view-container #money-view {
+        position: absolute;
+        left: 50%;transform: translateX(-50%);
+        top: 355px;
+    }
+
+        #view-container #money-view #money-view-content {
+            color: #85bc3d;
+            font-size: 28pt;
+            font-family: Roboto;
+            font-weight: bold;
+            letter-spacing: -0.65px;
+        }
+
+    #view-container #banking-time-view {
+        position: absolute;
+        left: 50%;transform: translateX(-50%);
+        top: 406px;
+    }
+
+        #view-container #banking-time-view #banking-time-view-content {
+            color: #99a6af;
+            font-family: Roboto;
+            font-weight: bold;
+            font-size: 15pt;
+            letter-spacing: -0.45px;
+        }
+
+    #view-container #beneficiary-person-view {
+        position: absolute;
+        right: 23px;
+        top: 514px;
+    }
+
+        #view-container #beneficiary-person-view #beneficiary-person-view-content {
+            color: #f3fcff;
+            font-family: Roboto;
+            font-weight: bold;
+            font-size: 17pt;
+            max-width: 290px;
+            text-align: right;
+        }
+
+    #view-container #beneficiary-account-view {
+        position: absolute;
+        right: 23px;
+        top: 607px;
+    }
+
+        #view-container #beneficiary-account-view #beneficiary-account-view-content {
+            color: #f3fcff;
+            font-family: Roboto;
+            font-weight: bold;
+            font-size: 19pt;
+            text-align: right;
+        }
+
+    #view-container #beneficiary-bank-view {
+        position: absolute;
+        right: 23px;
+        top: 703px;
+    }
+
+        #view-container #beneficiary-bank-view #beneficiary-bank-view-content {
+            color: #f3fcff;
+            font-family: Roboto;
+            font-weight: bold;
+            font-size: 17pt;
+            max-width: 290px;
+            text-align: right;
+        }
+
+    #view-container #transaction-code-view {
+        position: absolute;
+        right: 23px;
+        top: 795px;
+    }
+
+        #view-container #transaction-code-view #transaction-code-view-content {
+            color: #f3fcff;
+            font-family: Roboto;
+            font-weight: bold;
+            font-size: 17pt;
+            text-align: right;
+        }
+
+    #view-container #transaction-content-view {
+        position: absolute;
+        right: 23px;
+        top: 876px;
+    }
+
+        #view-container #transaction-content-view #transaction-content-view-content {
+            color: #f3fcff;
+            font-family: Roboto;
+            font-weight: bold;
+            font-size: 19pt;
+            max-width: 290px;
+            text-align: right;
+        }
+
+    #view-container #pin {
+        position: absolute;
+        top: 19px;
+        right: 29px;
+    }
+
+        #view-container #pin img {
+            width: 39px;
+            height: 17px;
+        }
+
+    #view-container #signal {
+        position: absolute;
+        left: 455px;
+        top: 19px;
+    }
+
+        #view-container #signal img {
+            width: 27px;
+            height: 18px;
+        }
+
+.signal {
+    float: left;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+    .signal img {
+        width: 30px;
+    }
+
+.pin {
+    float: left;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+    .pin img {
+        width: 30px;
+    }

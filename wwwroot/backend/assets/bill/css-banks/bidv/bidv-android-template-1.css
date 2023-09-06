@@ -1,0 +1,158 @@
+#bidv-android {
+    margin-top: 40px;
+}
+
+#view-container {
+    width: 591px;
+    height: 1280px;
+    position: relative;
+    float: right;
+    margin-right: 40px;
+    font-family: Roboto;
+}
+
+    #view-container img {
+        width: 591px;
+        height: 1280px;
+    }
+
+    #view-container #time-view {
+        position: absolute;
+        left: 33px;
+        top: 8px;
+    }
+
+        #view-container #time-view #time-view-content {
+            font-weight: 400;
+            font-size: 16pt;
+            color: white;
+            opacity: 0.85;
+        }
+
+    #view-container #pin {
+        position: absolute;
+        right: 33px;
+        top: 12px;
+    }
+
+        #view-container #pin img {
+            width: 12px;
+            height: 17px;
+        }
+
+    #view-container #pin-percent-view {
+        position: absolute;
+        right: 46px;
+        top: 11px;
+    }
+
+        #view-container #pin-percent-view #pin-percent-view-content {
+            color: white;
+            font-size: 16pt;
+            opacity: 0.85;
+        }
+
+    #view-container #signal-1 {
+        position: absolute;
+        right: 94px;
+        top: 12px;
+    }
+
+        #view-container #signal-1 img {
+            width: 20px;
+            height: 16px;
+        }
+
+    #view-container #signal-2 {
+        position: absolute;
+        right: 116px;
+        top: 12px;
+    }
+
+        #view-container #signal-2 img {
+            width: 20px;
+            height: 16px;
+        }
+
+    #view-container #signal-wifi {
+        position: absolute;
+        right: 138px;
+        top: 12px;
+    }
+
+        #view-container #signal-wifi img {
+            width: 22px;
+            height: 19px;
+        }
+
+    #view-container .text-color {
+        color: #0a5e8d;
+        font-size: 31px;
+    }
+
+    #view-container #transaction-content {
+        position: absolute;
+        left: 58px;
+        top: 527px;
+    }
+
+        #view-container #transaction-content #transaction-content-text {
+            font-size: 28px;
+            font-weight: 500;
+            text-align: center;
+            max-width: 480px;
+            font-family: SourceSansPro;
+            line-height: 44.95px;
+        }
+
+    #view-container #reference-number {
+        position: absolute;
+        left: 337px;
+        top: 749px;
+    }
+
+        #view-container #reference-number #reference-number-text {
+            font-family: SourceSansPro;
+            font-size: 30px;
+            font-weight: 500;
+        }
+
+.wifi {
+    float: left;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+    .wifi img {
+        width: 25px;
+    }
+
+.signal-3g {
+    float: left;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+    .signal-3g img {
+        width: 25px;
+    }
+
+.signal-4g {
+    float: left;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+    .signal-4g img {
+        width: 25px;
+    }
+
+.pin {
+    float: left;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+    .pin img {
+        width: 20px;
+    }

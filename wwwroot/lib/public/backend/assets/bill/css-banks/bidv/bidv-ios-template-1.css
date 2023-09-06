@@ -1,0 +1,126 @@
+#bidv-android {
+    margin-top: 40px;
+}
+#transaction-name{
+    text-transform: uppercase;
+}
+#view-container {
+    width: 591px;
+    height: 1280px;
+    position: relative;
+    float: right;
+    margin-right: 40px;
+    font-family: Roboto;
+}
+
+    #view-container img {
+        width: 591px;
+        height: 1280px;
+    }
+    #view-container #time-view {
+        position: absolute;
+        left: 33px;
+        top: 19px;
+    }
+
+        #view-container #time-view #time-view-content {
+            font-weight: 400;
+            font-size: 16pt;
+            color: white;
+            opacity: 0.85;
+        }
+
+    #view-container #pin {
+        position: absolute;
+        top: 22px;
+        right: 29px;
+    }
+
+        #view-container #pin img {
+            width: 39px;
+            height: 17px;
+        }
+
+    #view-container #signal {
+        position: absolute;
+        left: 455px;
+        top: 22px;
+    }
+
+        #view-container #signal img {
+            width: 27px;
+            height: 18px;
+        }
+
+    #view-container #wifi {
+        position: absolute;
+        right: 76px;
+        top: 21px;
+    }
+
+        #view-container #wifi img {
+            width: 25px;
+            height: 19px;
+        }
+
+    #view-container .text-color {
+        color: #0a5e8d;
+        font-size: 31px;
+    }
+
+    #view-container #transaction-content {
+        position: absolute;
+        left: 58px;
+        top: 561px;
+    }
+
+        #view-container #transaction-content #transaction-content-text {
+            font-size: 28px;
+            font-weight: 500;
+            text-align: center;
+            max-width: 480px;
+            font-family: SourceSansPro;
+            line-height: 48px;
+        }
+
+    #view-container #reference-number {
+        position: absolute;
+        left: 339px;
+        top: 807px;
+        font-size: 23px;
+    }
+
+        #view-container #reference-number #reference-number-text {
+            font-family: SourceSansPro;
+            font-size: 25px;
+            font-weight: 500;
+        }
+.wifi {
+    float: left;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+    .wifi img {
+        width: 25px;
+    }
+
+.signal {
+    float: left;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+    .signal img {
+        width: 25px;
+    }
+
+.pin {
+    float: left;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+    .pin img {
+        width: 20px;
+    }

@@ -1,0 +1,251 @@
+#techcombank-ios {
+    margin-top: 40px;
+}
+
+#view-container {
+    width: 100%;
+    height: 1051px;
+    position: relative;
+    float: right;
+    margin-right: 40px;
+}
+
+    #view-container img {
+        width: 100%;
+        height: 1051px;
+    }
+
+    #view-container #pin {
+        position: absolute;
+        top: 12px;
+        right: 15px;
+    }
+
+        #view-container #pin img {
+            width: 38px;
+            height: 15px;
+        }
+
+    #view-container #wifi {
+        position: absolute;
+        right: 62px;
+        top: 12px;
+    }
+
+        #view-container #wifi img {
+            width: 24px;
+            height: 13px;
+        }
+
+    #view-container #signal {
+        position: absolute;
+        top: 11px;
+        right: 97px;
+    }
+
+        #view-container #signal img {
+            width: 24px;
+            height: 10px;
+        }
+
+    #view-container #circle-signal {
+        position: absolute;
+        top: 14px;
+        right: 111px;
+    }
+
+        #view-container #circle-signal img {
+            width: 24px;
+            height: 4px;
+        }
+
+    #view-container #time-view {
+        position: absolute;
+        left: 31px;
+        top: 12px;
+    }
+
+        #view-container #time-view #time-view-content {
+            color: black;
+            font-size: 16pt;
+            font-family: Inter;
+            font-weight: bold;
+            letter-spacing: 1px;
+            -webkit-transform: scale(1.1, 1);
+            -moz-transform: scale(1.1, 1);
+            -o-transform: scale(1.1, 1);
+            transform: scale(1.1, 1);
+        }
+
+    #view-container #money-view {
+        position: absolute;
+        left: 142px;
+        top: 390px;
+    }
+    #view-container #money-view-vnd {
+        position: absolute;
+        left: 42px;
+        top: 389px;
+        font-weight: bold;
+        font-size: 26pt;
+        -webkit-transform: scale(1.2, 1);
+        -moz-transform: scale(1.2, 1);
+        -o-transform: scale(1.2, 1);
+        letter-spacing: -1px;
+        font-family: "Bold", sans-serif;
+        color: #000002;
+    }
+
+    #view-container #money-view #money-view-content {
+        font-size: 26pt;
+        color: #000002;
+        font-weight: bold;
+        -moz-transform: scale(1.1, 1);
+        -o-transform: scale(1.1, 1);
+        font-family: "Bold", sans-serif;
+        letter-spacing: -1px;
+        white-space: nowrap;
+    }
+
+    #view-container #banking-time-view {
+        position: absolute;
+        left: 48px;
+        top: 699px;
+    }
+
+        #view-container #banking-time-view #banking-time-view-content {
+            letter-spacing: -1px;
+            font-weight: bold;
+            font-size: 16pt;
+            -webkit-transform: scale(1.2, 1);
+            -moz-transform: scale(1.2, 1);
+            -o-transform: scale(1.2, 1);
+            transform: scale(1.2, 1);
+            font-family: "Bold", sans-serif;
+            color: #000002;
+        }
+
+    #view-container #beneficiary-person-view {
+        position: absolute;
+        left: 80px ; 
+        top: 342px;
+        overflow:hidden;
+
+    }
+
+        #view-container #beneficiary-person-view #beneficiary-person-view-content {
+            font-weight: bold;
+            font-size: 23pt;
+            -moz-transform: scale(1.2, 1);
+            -o-transform: scale(1.2, 1);
+            letter-spacing: -1px;
+            font-family: "Bold", sans-serif;
+            color: #000002;
+            text-transform: uppercase;
+            line-height: 35px;
+            white-space: nowrap;
+        }
+
+    #view-container #beneficiary-bank-view {
+        position: absolute;
+        left: 33px;
+        top: 521px;
+        overflow:hidden;
+    }
+
+        #view-container #beneficiary-bank-view #beneficiary-bank-view-content {
+            font-weight: bold;
+            letter-spacing: -1px;
+            font-weight: bold;
+            font-size: 16pt;
+            -moz-transform: scale(1.2, 1);
+            -o-transform: scale(1.2, 1);
+            font-family: "Bold", sans-serif;
+            color: #000002;
+            white-space: nowrap;
+        }
+
+    #view-container #beneficiary-bank-name-view {
+        position: absolute;
+        left: 33px;
+        top: 494px;
+        overflow: hidden;
+    }
+
+        #view-container #beneficiary-bank-name-view #beneficiary-bank-name-view-content {
+            letter-spacing: -1px;
+            font-weight: bold;
+            font-size: 16pt;
+            -moz-transform: scale(1.2, 1);
+            -o-transform: scale(1.2, 1);
+            font-family: "Bold", sans-serif;
+            color: #000002;
+            white-space: nowrap;
+        }
+
+    #view-container #transaction-content-view {
+        position: absolute;
+        left: 32px;
+        top: 612px;
+        overflow:hidden;
+    }
+
+        #view-container #transaction-content-view #transaction-content-view-content {
+            letter-spacing: -1px;
+            font-weight: bold;
+            font-size: 16pt;
+            -moz-transform: scale(1.2, 1);
+            -o-transform: scale(1.2, 1);
+            font-family: "Bold", sans-serif;
+            color: #000002;
+            white-space:nowrap;
+        }
+
+    #view-container #transaction-code-view {
+        position: absolute;
+        left: 53px;
+        top: 787px;
+    }
+
+        #view-container #transaction-code-view #transaction-code-view-content {
+            font-weight: bold;
+            letter-spacing: 1px;
+            font-weight: bold;
+            font-size: 16pt;
+            -webkit-transform: scale(1.2, 1);
+            -moz-transform: scale(1.2, 1);
+            -o-transform: scale(1.2, 1);
+            transform: scale(1.2, 1);
+            font-family: "Bold", sans-serif;
+            color: #000002;
+        }
+
+.signal {
+    float: left;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+    .signal img {
+        width: 25px;
+    }
+
+.wifi {
+    float: left;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+    .wifi img {
+        width: 25px;
+    }
+
+.pin {
+    float: left;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+    .pin img {
+        width: 25px;
+    }

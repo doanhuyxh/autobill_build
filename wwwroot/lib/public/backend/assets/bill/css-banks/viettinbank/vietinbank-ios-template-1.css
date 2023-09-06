@@ -1,0 +1,237 @@
+#vietinbank-ios {
+    margin-top: 10px;
+}
+
+#view-container {
+    width: 591px;
+    height: 1280px;
+    position: relative;
+    float: right;
+    margin-right: 40px;
+    font-family: Roboto;
+}
+
+    #view-container img {
+        width: 591px;
+        height: 1280px;
+    }
+
+    #view-container #time-view {
+        position: absolute;
+        left: 51px;
+        top: 20px;
+    }
+
+        #view-container #time-view #time-view-content {
+            font-weight: 600;
+            font-size: 20pt;
+            color: white;
+            opacity: 0.85;
+            font-family: Roboto;
+        }
+
+    #view-container #pin {
+        position: absolute;
+        top: 22px;
+        right: 44px;
+    }
+
+        #view-container #pin img {
+            width: 44px;
+            height: 21px;
+        }
+
+    #view-container #signal {
+        position: absolute;
+        left: 426px;
+        top: 23px;
+    }
+
+        #view-container #signal img {
+            width: 30px;
+            height: 19px;
+        }
+
+    #view-container #wifi {
+        position: absolute;
+        left: 467px;
+        top: 22px;
+    }
+
+        #view-container #wifi img {
+            width: 25px;
+            height: 19px;
+        }
+
+    #view-container #transaction-datetime-view {
+        position: absolute;
+        right: 27px;
+        top: 187px;
+    }
+
+        #view-container #transaction-datetime-view #transaction-datetime-view-content {
+            color: #93959a;
+            font-size: 17px;
+            font-family: sans-serif;
+            font-weight: 600;
+        }
+
+    #view-container #bill-code-view {
+        position: absolute;
+        right: 27px;
+        top: 210px;
+    }
+
+        #view-container #bill-code-view #bill-code-view-content {
+            color: #93959a;
+            font-size: 15px;
+            font-family: sans-serif;
+            font-weight: 600;
+        }
+
+    #view-container #from-account-number-view {
+        position: absolute;
+        right: 34px;
+        top: 378px;
+    }
+
+        #view-container #from-account-number-view #from-account-number-view-content {
+            color: #344659;
+            font-size: 19px;
+            font-family: sans-serif;
+            font-weight: 600;
+            /* letter-spacing: 0.4px; */
+        }
+
+    #view-container #from-account-name-view {
+        position: absolute;
+        right: 36.5px;
+        top: 403px;
+    }
+
+        #view-container #from-account-name-view #from-account-name-view-content {
+            color: #344659;
+            font-size: 18px;
+            font-family: sans-serif;
+            font-weight: bold;
+        }
+
+    #view-container #to-account-number-view {
+        position: absolute;
+        right: 34.5px;
+        top: 448px;
+    }
+
+        #view-container #to-account-number-view #to-account-number-view-content {
+            color: #233348;
+            font-size: 19px;
+            font-family: sans-serif;
+            font-weight: bold;
+        }
+
+    #view-container #to-account-name-view {
+        position: absolute;
+        right: 34.5px;
+        top: 472px;
+    }
+
+        #view-container #to-account-name-view #to-account-name-view-content {
+            color: #233348;
+            font-size: 18px;
+            font-family: sans-serif;
+            font-weight: bold;
+        }
+    #view-container #bank-name-view {
+            position: absolute;
+            right: 34px;
+            top: 516px;
+        }
+    
+            #view-container #bank-name-view #bank-name-view-content {
+                color: #233348;
+                font-size: 19px;
+                font-family: sans-serif;
+                font-weight: bold;
+            }
+    #view-container #money-view {
+        position: absolute;
+        right: 33.5px;
+        top: 563px;
+        letter-spacing: -0.4px;
+    }
+
+        #view-container #money-view #money-view-content {
+            color: #086A87;
+            font-size: 20px;
+            font-family: system-ui;
+            font-weight: bold;
+        }
+
+    #view-container #string-money-view {
+        position: absolute;
+        right: 34px;
+        top: 589px;
+    }
+
+        #view-container #string-money-view #string-money-view-content {
+            color: #086A87;
+            font-size: 19px;
+            font-family: sans-serif;
+            font-weight: bold;
+        }
+
+    #view-container #transaction-fee-view {
+        position: absolute;
+        right: 35px;
+        top: 634px;
+    }
+
+        #view-container #transaction-fee-view #transaction-fee-view-content {
+            color: #2a3a49;
+            font-size: 18px;
+            font-family: sans-serif;
+            font-weight: bold;
+        }
+
+    #view-container #transaction-content-view {
+        position: absolute;
+        right: 34.5px;
+        top: 682px;
+    }
+
+        #view-container #transaction-content-view #transaction-content-view-content {
+            color: #2a3a49;
+            font-size: 19px;
+            font-family: sans-serif;
+            font-weight: bold;
+        }
+
+.wifi {
+    float: left;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+    .wifi img {
+        width: 25px;
+    }
+
+.signal {
+    float: left;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+    .signal img {
+        width: 25px;
+    }
+
+.pin {
+    float: left;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+    .pin img {
+        width: 20px;
+    }

@@ -1,0 +1,200 @@
+#techcombank-ios {
+    margin-top: 40px;
+}
+
+#view-container {
+    width: 591px;
+    height: 1051px;
+    position: relative;
+    float: right;
+    margin-right: 40px;
+}
+
+    #view-container img {
+        width: 591px;
+        height: 1051px;
+    }
+
+    #view-container #pin {
+        position: absolute;
+        top: 4px;
+        right: 12px;
+    }
+
+        #view-container #pin img {
+            width: 39px;
+            height: 17px;
+        }
+
+    #view-container #lte {
+        position: absolute;
+        right: 58px;
+        top: 4px;
+    }
+
+        #view-container #lte img {
+            width: 27px;
+            height: 13px;
+        }
+
+    #view-container #signal {
+        position: absolute;
+        top: 4px;
+        right: 94px;
+    }
+
+        #view-container #signal img {
+            width: 26.5px;
+            height: 16px;
+        }
+
+    #view-container #time-view {
+        position: absolute;
+        top: 3px;
+        left: 12px;
+    }
+
+        #view-container #time-view #time-view-content {
+            color: black;
+            font-size: 15pt;
+            font-family: Roboto;
+            font-weight: bold;
+        }
+
+    #view-container #money-view {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 183px;
+    }
+
+        #view-container #money-view #money-view-content {
+            color: white;
+            font-size: 42pt;
+            font-family: Roboto;
+            font-weight: normal;
+        }
+
+    #view-container #banking-time-view {
+        position: absolute;
+        left: 24px;
+        top: 337px;
+    }
+
+        #view-container #banking-time-view #banking-time-view-content {
+            color: black;
+            font-family: Roboto;
+            font-weight: bold;
+            font-size: 16pt;
+        }
+
+    #view-container #sender-name-view {
+        position: absolute;
+        top: 424px;
+        left: 24px;
+    }
+
+        #view-container #sender-name-view #sender-name-view-content {
+            color: black;
+            font-family: Roboto;
+            font-weight: bold;
+            font-size: 16pt;
+        }
+
+    #view-container #sender-bank-view {
+        position: absolute;
+        top: 455px;
+        left: 24px;
+    }
+
+        #view-container #sender-bank-view #sender-bank-view-content {
+            color: black;
+            font-family: Roboto;
+            font-weight: bold;
+            font-size: 16pt;
+        }
+
+    #view-container #beneficiary-person-view {
+        position: absolute;
+        top: 542px;
+        left: 24px;
+    }
+
+        #view-container #beneficiary-person-view #beneficiary-person-view-content {
+            color: black;
+            font-family: Roboto;
+            font-weight: bold;
+            font-size: 16pt;
+        }
+
+    #view-container #beneficiary-bank-view {
+        position: absolute;
+        top: 574px;
+        left: 24px;
+    }
+
+        #view-container #beneficiary-bank-view #beneficiary-bank-view-content {
+            color: black;
+            font-family: Roboto;
+            font-weight: bold;
+            font-size: 16pt;
+        }
+
+    #view-container #beneficiary-bank-name-view {
+        position: absolute;
+        top: 605px;
+        left: 24px;
+    }
+
+        #view-container #beneficiary-bank-name-view #beneficiary-bank-name-view-content {
+            color: black;
+            font-family: Roboto;
+            font-weight: bold;
+            font-size: 16pt;
+        }
+
+    #view-container #transaction-content-view {
+        position: absolute;
+        top: 692px;
+        left: 24px;
+    }
+
+        #view-container #transaction-content-view #transaction-content-view-content {
+            color: black;
+            font-family: Roboto;
+            font-weight: bold;
+            font-size: 16pt;
+        }
+
+    #view-container #transaction-code-view {
+        position: absolute;
+        top: 778px;
+        left: 24px;
+    }
+
+        #view-container #transaction-code-view #transaction-code-view-content {
+            color: black;
+            font-family: Roboto;
+            font-weight: bold;
+            font-size: 16pt;
+        }
+
+.wifi {
+    float: left;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+    .wifi img {
+        width: 25px;
+    }
+
+.pin {
+    float: left;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+    .pin img {
+        width: 25px;
+    }

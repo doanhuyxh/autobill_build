@@ -1,0 +1,279 @@
+
+
+#game-account-template-1 {
+    padding-top: 40px;
+    font-family: Roboto;
+}
+
+#view-container {
+    width: 591px;
+    height: 1248px;
+    position: relative;
+    float: right;
+    margin-right: 40px;
+}
+
+    #view-container img {
+        width: 591px;
+        height: 1248px;
+    }
+
+    #view-container #time-view {
+        position: absolute;
+        left: 33px;
+        top: 8px;
+    }
+
+        #view-container #time-view #time-view-content {
+            font-weight: 400;
+            font-size: 16pt;
+            color: white;
+            opacity: 0.85;
+        }
+
+    #view-container #pin {
+        position: absolute;
+        right: 33px;
+        top: 12px;
+    }
+
+        #view-container #pin img {
+            width: 12px;
+            height: 17px;
+        }
+
+    #view-container #pin-percent-view {
+        position: absolute;
+        right: 46px;
+        top: 11px;
+    }
+
+        #view-container #pin-percent-view #pin-percent-view-content {
+            color: white;
+            font-size: 16pt;
+            opacity: 0.85;
+        }
+
+    #view-container #signal-1 {
+        position: absolute;
+        right: 94px;
+        top: 12px;
+    }
+
+        #view-container #signal-1 img {
+            width: 20px;
+            height: 16px;
+        }
+
+    #view-container #signal-2 {
+        position: absolute;
+        right: 116px;
+        top: 12px;
+    }
+
+        #view-container #signal-2 img {
+            width: 20px;
+            height: 16px;
+        }
+
+    #view-container #signal-wifi {
+        position: absolute;
+        right: 138px;
+        top: 12px;
+    }
+
+        #view-container #signal-wifi img {
+            width: 22px;
+            height: 19px;
+        }
+
+    #view-container #money-view {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 135px;
+    }
+
+        #view-container #money-view #money-view-content {
+            font-family: Helvetica-Neue;
+            font-size: 24pt;
+            font-weight: bold;
+            color: #0d6bc2;
+        }
+
+    #view-container #text-money-view {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 189px;
+    }
+
+        #view-container #text-money-view #text-money-view-content {
+            font-family: Helvetica-Neue;
+            font-size: 18pt;
+            font-weight: 500;
+            color: #3b3b3b;
+            letter-spacing: -0.6px;
+        }
+
+    #view-container #transaction-date-view {
+        position: absolute;
+        right: 63px;
+        top: 335px;
+    }
+
+        #view-container #transaction-date-view #transaction-date-view-content {
+            font-family: Helvetica-Neue;
+            font-size: 20pt;
+            font-weight: 400;
+            color: #234c8c;
+            letter-spacing: -0.6px;
+        }
+
+    #view-container #effective-date-view {
+        position: absolute;
+        right: 63px;
+        top: 392px;
+    }
+
+        #view-container #effective-date-view #effective-date-view-content {
+            font-family: Helvetica-Neue;
+            font-size: 20pt;
+            font-weight: 400;
+            color: #234c8c;
+            letter-spacing: -0.6px;
+        }
+
+    #view-container #sender-name-view {
+        position: absolute;
+        left: 75px;
+        top: 602px;
+    }
+
+        #view-container #sender-name-view #sender-name-view-content {
+            font-family: Helvetica-Neue;
+            font-size: 20pt;
+            font-weight: 400;
+            color: #234c8c;
+            letter-spacing: -0.7px;
+        }
+
+    #view-container #sender-bank-view {
+        position: absolute;
+        left: 75px;
+        top: 645px;
+    }
+
+        #view-container #sender-bank-view #sender-bank-view-content {
+            font-family: Helvetica-Neue;
+            font-size: 20pt;
+            font-weight: 400;
+            color: #234c8c;
+            letter-spacing: -0.7px;
+        }
+
+    #view-container #sender-account-view {
+        position: absolute;
+        left: 74px;
+        top: 690px;
+    }
+
+        #view-container #sender-account-view #sender-account-view-content {
+            font-family: Helvetica-Neue;
+            font-size: 20pt;
+            font-weight: bold;
+            color: #234c8c;
+            letter-spacing: -0.7px;
+        }
+
+    #view-container #beneficiary-name-view {
+        position: absolute;
+        right: 51px;
+        top: 850px;
+    }
+
+        #view-container #beneficiary-name-view #beneficiary-name-view-content {
+            font-family: Helvetica-Neue;
+            font-size: 20pt;
+            font-weight: 400;
+            color: #234c8c;
+            letter-spacing: -0.7px;
+            text-align: right;
+            line-height: 31px;
+        }
+
+    #view-container #beneficiary-bank-view {
+        position: absolute;
+        right: 51px;
+        top: 907px;
+    }
+
+        #view-container #beneficiary-bank-view #beneficiary-bank-view-content {
+            font-family: Helvetica-Neue;
+            font-size: 20pt;
+            font-weight: 400;
+            color: #234c8c;
+            text-align: right;
+            letter-spacing: -0.7px;
+            line-height: 31px;
+            max-width: 270px;
+        }
+
+    #view-container #beneficiary-account-view {
+        position: absolute;
+        right: 51px;
+        top: 988px;
+    }
+
+        #view-container #beneficiary-account-view #beneficiary-account-view-content {
+            font-family: Helvetica-Neue;
+            font-size: 20pt;
+            font-weight: 400;
+            color: #234c8c;
+            text-align: right;
+            letter-spacing: -0.7px;
+        }
+
+.wifi {
+    float: left;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+    .wifi img {
+        width: 25px;
+    }
+
+.signal-3g {
+    float: left;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+    .signal-3g img {
+        width: 25px;
+    }
+
+.signal-4g {
+    float: left;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+    .signal-4g img {
+        width: 25px;
+    }
+
+.pin {
+    float: left;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+    .pin img {
+        width: 20px;
+    }
+
+.changed {
+    background-color: #178bbc !important;
+}

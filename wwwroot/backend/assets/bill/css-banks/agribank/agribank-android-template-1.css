@@ -1,0 +1,230 @@
+#vietcombank-ios {
+    margin-top: 40px;
+}
+
+#view-container {
+    width: 591px;
+    height: 1280px;
+    position: relative;
+    float: right;
+    margin-right: 40px;
+}
+
+    #view-container img {
+        width: 591px;
+        height: 1280px;
+    }
+
+    #view-container #money-view {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 262.991px;
+    }
+
+        #view-container #money-view #money-view-content {
+            color: #a33950;
+            font-size: 26pt;
+            font-family: Arial;
+            font-weight: bold;
+        }
+
+    #view-container #card-number-view {
+        position: absolute;
+        left: 51.9821px;
+        top: 392.982px;
+    }
+
+        #view-container #card-number-view #card-number-view-content {
+            color: #3c3c3c;
+            font-size: 20pt;
+            font-family: Roboto;
+            font-weight: 400;
+            letter-spacing: 0.5px;
+        }
+
+    #view-container #beneficiary-name-view {
+        position: absolute;
+        left: 50.9732px;
+        top: 511.973px;
+    }
+
+        #view-container #beneficiary-name-view #beneficiary-name-view-content {
+            color: #a93e5d;
+            font-size: 20pt;
+            font-family: Roboto;
+            letter-spacing: 0.5px;
+        }
+
+    #view-container #beneficiary-bank-view {
+        position: absolute;
+        left: 50.9643px;
+        top: 634.955px;
+    }
+
+        #view-container #beneficiary-bank-view #beneficiary-bank-view-content {
+            color: #393939;
+            font-size: 20pt;
+            font-family: Roboto;
+            letter-spacing: 0.65px;
+            line-height: 33px;
+            max-width: 490px;
+        }
+
+    #view-container #fee-view {
+        position: absolute;
+        left: 50.9643px;
+        top: 901.955px;
+    }
+
+        #view-container #fee-view #fee-view-content {
+            color: #515151;
+            font-size: 20pt;
+            font-family: Roboto;
+            letter-spacing: 0.5px;
+        }
+
+    #view-container #transaction-time-view {
+        position: absolute;
+        left: 43.9643px;
+        top: 905.955px;
+    }
+
+        #view-container #transaction-time-view #transaction-time-view-content {
+            color: #515151;
+            font-size: 20pt;
+            font-family: Arial;
+        }
+
+    #view-container #transaction-time-view {
+        position: absolute;
+        left: 49.9643px;
+        top: 1021.95px;
+    }
+
+        #view-container #transaction-time-view #transaction-time-view-content {
+            color: #454243;
+            font-size: 20pt;
+            font-family: Arial;
+            letter-spacing: 1px;
+        }
+
+    #view-container #transaction-content-view {
+        position: absolute;
+        left: 50.9643px;
+        top: 784.946px;
+    }
+
+        #view-container #transaction-content-view #transaction-content-view-content {
+            color: #515151;
+            font-size: 22pt;
+            font-family: Arial;
+            letter-spacing: 0.3px;
+        }
+
+    #view-container #time-view {
+        position: absolute;
+        left: 31px;
+        top: 21px;
+    }
+
+        #view-container #time-view #time-view-content {
+            font-weight: 400;
+            font-size: 16pt;
+            color: #58585a;
+        }
+
+    #view-container #pin {
+        position: absolute;
+        right: 33px;
+        top: 22px;
+    }
+
+        #view-container #pin img {
+            width: 12px;
+            height: 17px;
+        }
+
+    #view-container #pin-percent-view {
+        position: absolute;
+        right: 46px;
+        top: 21px;
+    }
+
+        #view-container #pin-percent-view #pin-percent-view-content {
+            color: #424244;
+            font-size: 16pt;
+        }
+
+    #view-container #signal-1 {
+        position: absolute;
+        right: 94px;
+        top: 23px;
+    }
+
+        #view-container #signal-1 img {
+            width: 20px;
+            height: 16px;
+        }
+
+    #view-container #signal-2 {
+        position: absolute;
+        right: 116px;
+        top: 23px;
+    }
+
+        #view-container #signal-2 img {
+            width: 20px;
+            height: 16px;
+        }
+
+    #view-container #signal-wifi {
+        position: absolute;
+        right: 138px;
+        top: 22px;
+    }
+
+        #view-container #signal-wifi img {
+            width: 22px;
+            height: 19px;
+        }
+
+.wifi {
+    float: left;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+    .wifi img {
+        width: 25px;
+    }
+
+.signal-3g {
+    float: left;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+    .signal-3g img {
+        width: 25px;
+    }
+
+.signal-4g {
+    float: left;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+    .signal-4g img {
+        width: 25px;
+    }
+
+.pin {
+    float: left;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+    .pin img {
+        width: 20px;
+    }

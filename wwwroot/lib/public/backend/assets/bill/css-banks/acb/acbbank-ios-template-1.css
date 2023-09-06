@@ -1,0 +1,242 @@
+
+
+#game-account-template-1 {
+    padding-top: 40px;
+    font-family: Roboto;
+}
+
+#view-container {
+    width: 591px;
+    height: 1248px;
+    position: relative;
+    float: right;
+    margin-right: 40px;
+}
+
+    #view-container img {
+        width: 591px;
+        height: 1248px;
+    }
+
+    #view-container #time-view {
+        position: absolute;
+        left: 33px;
+        top: 19px;
+    }
+
+        #view-container #time-view #time-view-content {
+            font-weight: 400;
+            font-size: 16pt;
+            color: white;
+            opacity: 0.85;
+        }
+
+    #view-container #pin {
+        position: absolute;
+        top: 22px;
+        right: 29px;
+    }
+
+        #view-container #pin img {
+            width: 39px;
+            height: 17px;
+        }
+
+    #view-container #signal {
+        position: absolute;
+        left: 455px;
+        top: 22px;
+    }
+
+        #view-container #signal img {
+            width: 27px;
+            height: 18px;
+        }
+
+    #view-container #wifi {
+        position: absolute;
+        right: 76px;
+        top: 21px;
+    }
+
+        #view-container #wifi img {
+            width: 25px;
+            height: 19px;
+        }
+
+    #view-container #money-view {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 178px;
+    }
+
+        #view-container #money-view #money-view-content {
+            font-family: Helvetica-Neue;
+            font-size: 24pt;
+            font-weight: bold;
+            color: #0d6bc2;
+        }
+
+    #view-container #text-money-view {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 224px;
+    }
+
+        #view-container #text-money-view #text-money-view-content {
+            font-family: Helvetica-Neue;
+            font-size: 18pt;
+            font-weight: 500;
+            color: #3b3b3b;
+            letter-spacing: -0.6px;
+        }
+
+    #view-container #transaction-date-view {
+        position: absolute;
+        right: 63px;
+        top: 390px;
+    }
+
+        #view-container #transaction-date-view #transaction-date-view-content {
+            font-family: Helvetica-Neue;
+            font-size: 20pt;
+            font-weight: 400;
+            color: #3b3b3b;
+            letter-spacing: -0.6px;
+        }
+
+    #view-container #effective-date-view {
+        position: absolute;
+        right: 63px;
+        top: 447px;
+    }
+
+        #view-container #effective-date-view #effective-date-view-content {
+            font-family: Helvetica-Neue;
+            font-size: 20pt;
+            font-weight: 400;
+            color: #3b3b3b;
+            letter-spacing: -0.6px;
+        }
+
+    #view-container #sender-name-view {
+        position: absolute;
+        left: 75px;
+        top: 657px;
+    }
+
+        #view-container #sender-name-view #sender-name-view-content {
+            font-family: Helvetica-Neue;
+            font-size: 20pt;
+            font-weight: 400;
+            color: #234c8c;
+            letter-spacing: -0.7px;
+        }
+
+    #view-container #sender-bank-view {
+        position: absolute;
+        left: 75px;
+        top: 701px;
+    }
+
+        #view-container #sender-bank-view #sender-bank-view-content {
+            font-family: Helvetica-Neue;
+            font-size: 20pt;
+            font-weight: 400;
+            color: #234c8c;
+            letter-spacing: -0.7px;
+        }
+
+    #view-container #sender-account-view {
+        position: absolute;
+        left: 74px;
+        top: 690px;
+    }
+
+        #view-container #sender-account-view #sender-account-view-content {
+            font-family: Helvetica-Neue;
+            font-size: 20pt;
+            font-weight: bold;
+            color: #234c8c;
+            letter-spacing: -0.7px;
+        }
+
+    #view-container #beneficiary-name-view {
+        position: absolute;
+        right: 51px;
+        top: 919px;
+    }
+
+        #view-container #beneficiary-name-view #beneficiary-name-view-content {
+            font-family: Helvetica-Neue;
+            font-size: 16pt;
+            font-weight: 400;
+            color: #3b3b3b;
+            letter-spacing: -0.7px;
+            text-align: right;
+            line-height: 31px;
+        }
+
+    #view-container #beneficiary-bank-view {
+        position: absolute;
+        right: 51px;
+        top: 979px;
+    }
+
+        #view-container #beneficiary-bank-view #beneficiary-bank-view-content {
+            font-family: Helvetica-Neue;
+            font-size: 16pt;
+            font-weight: 400;
+            color: #3b3b3b;
+            text-align: right;
+            letter-spacing: -0.7px;
+            line-height: 31px;
+            max-width: 270px;
+        }
+
+    #view-container #beneficiary-account-view {
+        position: absolute;
+        right: 51px;
+        top: 1072px;
+    }
+
+        #view-container #beneficiary-account-view #beneficiary-account-view-content {
+            font-family: Helvetica-Neue;
+            font-size: 16pt;
+            font-weight: 400;
+            color: #3b3b3b;
+            text-align: right;
+            letter-spacing: -0.7px;
+        }
+
+.wifi {
+    float: left;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+    .wifi img {
+        width: 25px;
+    }
+
+.signal {
+    float: left;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+    .signal img {
+        width: 25px;
+    }
+
+.pin {
+    float: left;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+    .pin img {
+        width: 20px;
+    }

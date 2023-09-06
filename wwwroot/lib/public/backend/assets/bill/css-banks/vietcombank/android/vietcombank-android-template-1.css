@@ -1,0 +1,203 @@
+#vietcombank-ios {
+    margin-top: 40px;
+}
+
+#view-container {
+    width: 591px;
+    height: 1280px;
+    position: relative;
+    float: right;
+    margin-right: 40px;
+    font-family: Roboto;
+}
+
+    #view-container img {
+        width: 591px;
+        height: 1280px;
+    }
+
+    #view-container #viettel {
+        position: absolute;
+        left: 10px;
+        top: 14px;
+    }
+
+        #view-container #viettel #viettel-content {
+            color: #828f98;
+            font-size: 11pt;
+        }
+
+    #view-container #mobifone {
+        position: absolute;
+        left: 10px;
+        top: 33px;
+    }
+
+        #view-container #mobifone #mobifone-content {
+            color: #828f98;
+            font-size: 11pt;
+        }
+
+    #view-container #time-view {
+        position: absolute;
+        left: 533px;
+        top: 22px;
+    }
+
+        #view-container #time-view #time-view-content {
+            color: #828f98;
+            font-size: 13.5pt;
+        }
+
+    #view-container #pin {
+        position: absolute;
+        left: 492px;
+        top: 22px;
+    }
+
+        #view-container #pin img {
+            width: 34px;
+            height: 17px;
+        }
+
+    #view-container #signal-1 {
+        position: absolute;
+        left: 428px;
+        top: 22px;
+    }
+
+        #view-container #signal-1 img {
+            width: 20px;
+            height: 20px;
+        }
+
+    #view-container #signal-2 {
+        position: absolute;
+        left: 393px;
+        top: 22px;
+    }
+
+        #view-container #signal-2 img {
+            width: 20px;
+            height: 20px;
+        }
+
+    #view-container #signal-wifi {
+        position: absolute;
+        left: 356.994px;
+        top: 21px;
+    }
+
+        #view-container #signal-wifi img {
+            width: 23px;
+            height: 20px;
+        }
+
+    #view-container #pin-percent-view {
+        position: absolute;
+        right: 105px;
+        top: 22px;
+    }
+
+        #view-container #pin-percent-view #pin-percent-view-content {
+            color: #828f98;
+            font-size: 14pt;
+        }
+
+    #view-container #money-view {
+        position: absolute;
+        left: 50%;transform: translateX(-50%);
+        top: 378px;
+    }
+
+        #view-container #money-view #money-view-content {
+            color: #72bf00;
+            font-size: 31pt;
+            font-weight: bold;
+            white-space: nowrap;
+        }
+
+    #view-container #banking-time-view {
+        position: absolute;
+        left: 50%;transform: translateX(-50%);
+        top: 446px;
+    }
+
+        #view-container #banking-time-view #banking-time-view-content {
+            color: #828f98;
+            font-size: 14pt;
+        }
+
+    #view-container #beneficiary-person-view {
+        position: absolute;
+        right: 33px;
+        top: 525px;
+    }
+
+        #view-container #beneficiary-person-view #beneficiary-person-view-content {
+            color: #f3fcff;
+            font-weight: bold;
+            font-size: 19pt;
+            letter-spacing: -0.15px;
+            max-width: 260px;
+            text-align: right;
+            overflow-wrap: break-word;
+            word-wrap: break-word;
+            hyphens: auto;
+        }
+
+    #view-container #beneficiary-account-view {
+        position: absolute;
+        top: 614px;
+        right: 33px;
+    }
+
+        #view-container #beneficiary-account-view #beneficiary-account-view-content {
+            color: #f3fcff;
+            font-weight: bold;
+            font-size: 19pt;
+            text-align: right;
+            max-width: 230px;
+            text-align: right;
+            overflow-wrap: break-word;
+            word-wrap: break-word;
+        }
+
+    #view-container #transaction-code-view {
+        position: absolute;
+        top: 705px;
+        right: 33px;
+    }
+
+        #view-container #transaction-code-view #transaction-code-view-content {
+            color: #f3fcff;
+            font-weight: bold;
+            font-size: 19pt;
+            text-align: right;
+        }
+
+    #view-container #transaction-content-view {
+        position: absolute;
+        top: 796px;
+        right: 33px;
+    }
+
+        #view-container #transaction-content-view #transaction-content-view-content {
+            color: #f3fcff;
+            font-weight: bold;
+            font-size: 19pt;
+            text-align: right;
+        }
+
+.pin {
+    cursor: pointer;
+}
+
+.wifi{
+    cursor: pointer;
+    width: 30px;
+}
+
+.signal-1, .signal-2 {
+    cursor: pointer;
+}
